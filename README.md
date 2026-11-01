@@ -1,4 +1,4 @@
-# jurnal-pak-bp
+firebase login# jurnal-pak-bp
 jurnal pak bp
 <!DOCTYPE html>
 <html lang="id">
@@ -1782,3 +1782,6 @@ jurnal pak bp
     </script>
 </body>
 </html>
+firebase login
+firebase init
+firebase deploy
