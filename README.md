@@ -1,3 +1,4 @@
+npm install firebase
 firebase login# jurnal-pak-bp
 jurnal pak bp
 <!DOCTYPE html>
@@ -1785,3 +1786,24 @@ jurnal pak bp
 firebase login
 firebase init
 firebase deploy
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyB1dXkz_17OnvyoFNzaDlNN55J8QLTIRCM",
+  authDomain: "jurnalpak9.firebaseapp.com",
+  projectId: "jurnalpak9",
+  storageBucket: "jurnalpak9.firebasestorage.app",
+  messagingSenderId: "110851751994",
+  appId: "1:110851751994:web:393cd44437f4fd07abb503",
+  measurementId: "G-YQ5VR1K1CJ"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
